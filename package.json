@@ -1,0 +1,57 @@
+{
+	"name": "phorm-kit-vercel",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"start": "svelte-kit start",
+		"lint": "prettier --check . && eslint --ignore-path .gitignore .",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@mikro-orm/core": "^4.5.1",
+		"@mikro-orm/postgresql": "^4.5.1",
+		"@sveltejs/adapter-vercel": "next",
+		"@sveltejs/kit": "next",
+		"@tailwindcss/forms": "^0.3.2",
+		"@tailwindcss/typography": "^0.4.0",
+		"@types/js-cookie": "^2.2.6",
+		"@types/jsonwebtoken": "^8.5.1",
+		"@types/secure-password": "^3.1.0",
+		"@typescript-eslint/eslint-plugin": "^4.19.0",
+		"@typescript-eslint/parser": "^4.19.0",
+		"@vercel/node": "^1.9.1",
+		"autoprefixer": "^10.2.5",
+		"class-validator": "^0.13.1",
+		"cssnano": "^4.1.10",
+		"dotenv": "^8.2.0",
+		"eslint": "^7.22.0",
+		"eslint-config-prettier": "^8.1.0",
+		"eslint-plugin-svelte3": "^3.1.0",
+		"graphql": "^15.5.0",
+		"graphql-helix": "^1.2.3",
+		"js-cookie": "^2.2.1",
+		"jsonwebtoken": "^8.5.1",
+		"postcss": "^8.2.7",
+		"postcss-load-config": "^3.0.1",
+		"prettier": "~2.2.1",
+		"prettier-plugin-svelte": "^2.2.0",
+		"reflect-metadata": "^0.1.13",
+		"secure-password": "^4.0.0",
+		"svelte": "^3.29.0",
+		"svelte-multi": "^0.6.2",
+		"svelte-preprocess": "^4.6.9",
+		"tailwindcss": "^2.0.3",
+		"tslib": "^2.0.0",
+		"type-graphql": "^1.1.1",
+		"typescript": "^4.0.0",
+		"vite": "^2.1.0"
+	},
+	"type": "module",
+	"engines": {
+		"node": ">= 12.17.0"
+	},
+	"dependencies": {
+		"validate.js": "^0.13.1"
+	}
+}
